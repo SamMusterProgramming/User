@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    width: 100vw;
+    height:100vw;
+    margin: 0;
+    display: flex;
+  
+    justify-content: center;
+}
+.Wrapper{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    min-width: 50%;
+    max-height: 40%;
+
+}
+
+
+.adminProfile {
+    
+    width: 100%;
+    height: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: rgb(232, 215, 215); */
+}
+.adminProfile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.adminProfile p {
+    color: rgb(47, 48, 50);
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#title {
+    color:gray;
+    font-size: 12px;
+    font-weight: 250px;
+
+}
+
+.toprow{
+   margin-top:3%;
+}
+
+
+.adminLogin{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    background-color: white ;
+    border-radius: 15px;
+  
+}
+.adminLogin p {
+    color:lightskyblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+.adminLogin input {
+    border: none;
+    list-style: none;
+    background-color: rgb(198, 198, 175);
+    font-size: 14px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+
+    color: black;
+}
+
+.contactContainer
+{
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;     */
+    display: flex;
+    flex-direction: column;
+}
+.contactContainer p {
+    font-size: 12px;
+}
+.contactContainer span {
+    font-size: 13px;
+    color: rgb(196, 193, 193);
+    margin-left: 10px;
+   
+}
+.contactContainer a{
+    font-size: 19px;
+    color: red;
+    margin-left: 15px;
+}
